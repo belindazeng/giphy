@@ -1,0 +1,104 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+	<script type="application/ld+json" id="lenslet">
+	</script>
+
+  <!-- use giphy API to get gifs -->
+	<script>
+	function createCORSRequest(method, url) {
+	  var xhr = new XMLHttpRequest();
+	  if ("withCredentials" in xhr) {
+	    // XHR for Chrome/Firefox/Opera/Safari.
+	    xhr.open(method, url, true);
+	  } else if (typeof XDomainRequest != "undefined") {
+	    // XDomainRequest for IE.
+	    xhr = new XDomainRequest();
+	    xhr.open(method, url);
+	  } else {
+	    // CORS not supported.
+	    xhr = null;
+	  }
+	  return xhr;
+	}
+
+	// Helper method to parse the title tag from the response.
+	function getTitle(text) {
+	  return text.match('<title>(.*)?</title>')[1];
+	}
+
+	// Make the actual CORS request.
+	function makeCorsRequest(url) {
+	  // This is a sample server that supports CORS.
+	  var xhr = createCORSRequest('GET', url);
+	  if (!xhr) {
+	    alert('CORS not supported');
+	    return;
+	  }
+	  var gifs = ""
+	  // Response handlers.
+	  xhr.onload = function() {
+	    var response = xhr.responseText;
+	    var json = JSON.parse(response);
+	    console.log(json["data"][0]["images"])
+	    gifs = json["data"][0]["images"]["downsized_medium"]["url"];
+	    
+	    
+	    document.getElementById("gif").src = gifs
+	    console.log(document.getElementById("gif"))
+	  	console.log("logging")
+	    
+	    // var title = getTitle(text);
+	    // alert('Response from CORS request to ' + url + ': ' + title);
+	  };
+
+	  xhr.onerror = function() {
+	    alert('Woops, there was an error making the request.');
+	  };
+
+	  xhr.send();
+	}
+	window.onload = function () { 
+		
+		var pageUrl = window.location.href
+		var splitURL = pageUrl.split("#")
+		var movieAsURL = splitURL[1]
+		var moviePosterURL = splitURL[2]
+		console.log(moviePosterURL)
+		var movieName = movieAsURL.split('+').join(' ')
+		var url = 'https://api.giphy.com/v1/gifs/search?api_key=8dtNnMYzxC8FA7SmAbYlbRxpKoOdAqN7&q='+movieAsURL+'&limit=1&offset=0&rating=G&lang=en';
+		makeCorsRequest(url)
+		var json = {
+	     "@context": "http://schema.org/",
+	     "@type": "ARArtifact",
+	     "anchor": {
+	         "@type": "Movie",
+	         "image": "https://www.cabinetmakerwarehouse.com/wp-content/uploads/1530-beige.jpg"
+	       },
+	     "asset": {
+	       "@type": "WebPage",
+	       "name": "Giphy",
+	       "description": "A Lenslet to see related gifs."
+	     }
+	   }
+	   json["asset"]["url"] = pageUrl
+	   json["asset"]["image"] = moviePosterURL
+	   json["anchor"]["name"] = movieName
+		document.getElementById("lenslet").innerHTML = JSON.stringify(json)
+		console.log(document.getElementById("lenslet").innerHTML)
+	}
+	
+	
+	</script>
+	<style>
+	#gif {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	</style>
+</head>
+<body>
+	<img id="gif" src="" title="gif" />
+</body>
+</html>
