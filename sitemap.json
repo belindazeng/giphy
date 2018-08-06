@@ -1,6 +1,28 @@
 {
   "urls": [
-    "https://services-qa.walgreens.com/lenslet?q=ACT",
-    "https://services-qa.walgreens.com/lenslet?q=ALWAYS",
+    "https://belindazeng.github.io/giphy/#Incredibles#https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-18hpovx_f8238c31.jpeg?region=0%2C0%2C300%2C450",
+    "https://belindazeng.github.io/giphy/#Black+Panther#http://t1.gstatic.com/images?q=tbn:ANd9GcQPpcKQ9eWZGxJe6eXyCW91eayLVm4KqruvJz3GP0F2T2w46yKZ",
+    "https://belindazeng.github.io/giphy/#Wonder+Woman#http://t1.gstatic.com/images?q=tbn:ANd9GcQcCAOmt-FsRsR8GebIzI67qSvdQ2JLYDRLxeAcbH-541fzqq1H",
+    "https://belindazeng.github.io/giphy/#Avengers+Infinity+War#http://t2.gstatic.com/images?q=tbn:ANd9GcQoBtRhueP0Kn_O7e89DXSBKBUz-1Nu4Ngb9eqFzqF3EbPGWYVP",
+    "https://belindazeng.github.io/giphy/#Beauty+And+The+Beast#http://t2.gstatic.com/images?q=tbn:ANd9GcT7w1Dj-lkTL1CooOXihJ3WBIxyt3K9H6UZ08Ktjv8Ba3gLgC7B",
+    "https://belindazeng.github.io/giphy/#Get+Out#http://t1.gstatic.com/images?q=tbn:ANd9GcRJbw9PY9b7GmVYE1v4VyTpwekOrJHuQY1z0qwlMxD6ssnlGbrQ",
+    "https://belindazeng.github.io/giphy/#Justice+League#http://t3.gstatic.com/images?q=tbn:ANd9GcQr8TLcGyFZmLsJSNZ3M_8CO2M9YbnucnpGTs6u2erH-SveV1O2",
+    "https://belindazeng.github.io/giphy/#Dunkirk#jpghttp://t3.gstatic.com/images?q=tbn:ANd9GcSi8VmNoMYm77iHAsAdsZhABzm_idRwgsU-r3njA4F6HY3-xceC",
+    "https://belindazeng.github.io/giphy/#Moana#http://t0.gstatic.com/images?q=tbn:ANd9GcSK9NqQ-3ZlUPiEfWAmVVifCXSpW5WPRd_awT8tnODryrt5M7Ga",
+    "https://belindazeng.github.io/giphy/#Thor+Ragnarok#http://t3.gstatic.com/images?q=tbn:ANd9GcST1uigGrukMvSAVUefFNuQ0NMZAR-FjfFIwSZFCR5ZkyMSgCyj",
+    "https://belindazeng.github.io/giphy/#Starwars+The+Last+Jedi#http://t2.gstatic.com/images?q=tbn:ANd9GcRgcIU4MKHZkZNeDt_tAewyfwX7PAmSdj_7wdg_FInkZw8Um9F_",
+    "https://belindazeng.github.io/giphy/#The+Greatest+Showman#http://t3.gstatic.com/images?q=tbn:ANd9GcSIBSGJLB8aasi7cB1FCPjg0L6XAw9GYZ4uQY1MsQGX2e8H_mCq",
+    "https://belindazeng.github.io/giphy/#Hidden+Figures#http://t1.gstatic.com/images?q=tbn:ANd9GcRqU2FbN7Zp0ELl-sX4lO8XO0pTjpmdJcpos_fnP9wM9DQHYgFq",
+    "https://belindazeng.github.io/giphy/#Spiderman+Homecoming#http://t0.gstatic.com/images?q=tbn:ANd9GcQbehdUfqrxew8nLGtajrYgNSc8m4Il8BUfW4C_AC0ggi8xJVh5",
+    "https://belindazeng.github.io/giphy/#Logan#hhttp://t1.gstatic.com/images?q=tbn:ANd9GcRPoMqL1vglrh7OF_69pT8gYMYnYaq1r7WfPMcD587V9uOR_hW2",
+    "https://belindazeng.github.io/giphy/#Deadpool+2#http://t1.gstatic.com/images?q=tbn:ANd9GcTPWrBfb8UPCPbnwldCni7voaxRI_mWz4QnmWO-Bf42hUA_XkCI",
+    "https://belindazeng.github.io/giphy/#La+La+Land#http://t2.gstatic.com/images?q=tbn:ANd9GcRhFtgdSYQ89vUMjMJal2D8H39qBCkh9ptCEoZEsafOzkeQPTu2",
+    "https://belindazeng.github.io/giphy/#Coco#http://t3.gstatic.com/images?q=tbn:ANd9GcS3FGIsangc2iauB89mttkiBAvIDj_O952Ypk2p5QqABby--L6d",
+    "https://belindazeng.github.io/giphy/#Baby+Driver#http://t2.gstatic.com/images?q=tbn:ANd9GcQluwvAAFCa_AXrK6Aex_5zbStjGjLwixcX1zhUYsItB0Gdw5_I",
+    "https://belindazeng.github.io/giphy/#Guardians+of+the+Galaxy+2#http://t3.gstatic.com/images?q=tbn:ANd9GcQXZE44ioeZHmwyJMeBa3rXFyOWTNe3ZnoYUK0tSkdkECpX-v7P",
+    "https://belindazeng.github.io/giphy/#Ready+Player+One#http://t0.gstatic.com/images?q=tbn:ANd9GcQsdKo9kNvc88uK7_G6cxhPQcqd2pjP5W__NKQ8HNU0-gWn9-fa",
+    "https://belindazeng.github.io/giphy/#Frozen#http://t3.gstatic.com/images?q=tbn:ANd9GcQoiXHk-EN-jPxlg6FnUNleLPkXPYqt4DUfQZTsAfTLb2bXIZ7a",
+    "https://belindazeng.github.io/giphy/#Incredibles+2#https://i1.wp.com/teaser-trailer.com/wp-content/uploads/Incredibles-2-New-Character-Poster-2.jpg?ssl=1",
+    "https://belindazeng.github.io/giphy/#Deadpool#https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
 ]
 }
